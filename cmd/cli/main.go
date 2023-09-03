@@ -10,7 +10,7 @@ import (
 	"os/signal"
 )
 
-var port = flag.Int64("port", 1233, "自定义监听端口")
+var port = flag.Int64("port", 11233, "自定义监听端口")
 var token = flag.String("token", "", "使用token验证")
 var useDnsEdge = flag.Bool("use-dns-edge", false, "使用DNS解析Edge接口，而不是内置的北京微软云节点。")
 
